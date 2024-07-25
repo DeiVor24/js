@@ -191,6 +191,11 @@ amzius += 1;
 amzius++;
 ++amzius;
 
+amzius = amzius + 1;
+amzius += 1;
+amzius++;
+++amzius;
+
 console.clear();
 
 let skola = 55;
@@ -207,3 +212,7 @@ console.log(skola);
 
 --skola;
 console.log(skola);
+
+
+console.clear();
+
