@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "training": "node --watch ./js/kintamieji/training.js",
+    "boolean": "node --watch ./js/kintamieji/boolean.js",
     "string": "node --watch ./js/kintamieji/string.js",
     "number": "node --watch ./js/kintamieji/number.js",
     "dev": "node ./index.js",

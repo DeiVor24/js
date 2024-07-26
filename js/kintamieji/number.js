@@ -212,7 +212,16 @@ console.log(skola);
 
 --skola;
 console.log(skola);
+--skola;
+console.log(skola);
+skola--;
+console.log(skola);
+skola--;
+console.log(skola);
+
+skola++;
+console.log(skola);
 
 
-console.clear();
+
 
