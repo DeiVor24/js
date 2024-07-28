@@ -85,7 +85,103 @@ console.log(false || false && true);
 console.log(false || true && false);
 console.log(true || false && false);
 console.log(false || false && false);
-// console.log('--------');
+
+console.log('--------');
+
+console.clear ();
+
+console.log('--------1----------');
+
 
 console.log(true && true && true && true);
+console.log(false && true && true && true);
+console.log(false && false && true && true);
+console.log(false && false && false && true);
+console.log(false && false && false && false);
+
+
+console.log('---------2---------');
+
+console.log(true || true || true || true);
+console.log(false || true || true ||true);
+console.log(false || false || true || true);
+console.log(false || false || false || true);
+console.log(false || false || false || false);
+
+
+console.log('---------3---------');
+
+console.log(true || true && true && true);
+console.log(false || true && true && true);
+console.log(false || false && true && true);
+console.log(false || false && false && true);
+console.log(false || false && false && false);
+console.log(true || false && false && false);
+console.log(true || true && false && false);
+console.log(true || true && true && false);
+
+console.log('---------4---------');
+
+console.log(true && true || true && true);
+console.log(false && true || true && true);
+console.log(false && false || true && true);
+console.log(false && false || false && true);
+console.log(false && false || false && false);
+console.log(true && false || false && false);
+console.log(true && true || false && false);
+console.log(true && true || true && false);
+
+console.log('---------5---------');
+
+
+console.log(true && true && true || true);
+console.log(false && true && true || true);
+console.log(false && false && true || true);
+console.log(false && false && false || true);
+console.log(false && false && false || false);
+console.log(true && false && false || false);
+console.log(true && true && false || false);
+console.log(true && true && true || false);
+
+console.log('---------6---------');
+
+console.log(true || true || true && true);
+console.log(false || true || true && true);
+console.log(false || false || true && true);
+console.log(false || false || false && true);
+console.log(false || false || false && false);
+console.log(true || false || false && false);
+console.log(true || true || false && false);
+console.log(true || true || true && false);
+
+console.log('---------7---------');
+
+console.log(true && true || true || true);
+console.log(false && true || true || true);
+console.log(false && false || true || true);
+console.log(false && false || false || true);
+console.log(false && false || false || false);
+console.log(true && false || false || false);
+console.log(true && true || false || false);
+console.log(true && true || true || false);
+
+console.log('---------8---------');
+
+console.log(true || true && true || true);
+console.log(false || true && true ||true);
+console.log(false || false && true || true);
+console.log(false || false && false || true);
+console.log(false || false && false || false);
+console.log(true || false && false || false);
+console.log(true || true && false || false);
+console.log(true || true && true || false);
+
+
+
+
+
+
+
+
+
 
