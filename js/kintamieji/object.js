@@ -195,10 +195,54 @@ console.log('B sablonas');
 // Prekiu krepselio verte yra TOTAL KAINA Eur.
 
 const irankiai = irankis1[0];
-const totalkaina = 'Prekiu krepselio verte yra ' + (irankis1.qty * irankis1.price + irankis2.qty * irankis2.price + irankis3.qty * irankis3.price
- + irankis4.qty * irankis4.price + irankis5.qty * irankis5.price +
-irankis6.qty * irankis6.price + irankis7.qty * irankis7.price + irankis8.qty * irankis8.price) + ' eur'; 
+const kaina = (irankis1.qty * irankis1.price + irankis2.qty * irankis2.price + irankis3.qty * irankis3.price
+    + irankis4.qty * irankis4.price + irankis5.qty * irankis5.price +
+   irankis6.qty * irankis6.price + irankis7.qty * irankis7.price + irankis8.qty * irankis8.price);
+const totalkaina = 'Prekiu krepselio verte yra ' + kaina + ' eur'; 
 console.log(totalkaina);
+
+console.log('-----------');
+
+
+const pc = {
+    monitor: '1980x1080',
+    ram:16,
+    hd:100,
+    keyboard: 'en',
+    mouse:true,
+    power:true,
+};
+
+console.log(pc.ram);
+console.log(pc['mouse']);
+
+const param = 'power';
+
+console.log(pc[param]);
+
+const pc1 = {
+    monitor: {
+        width:1980,
+        height: 1080,
+    },
+
+    ram:16,
+    hd:100,
+    keyboard: 'en',
+    mouse:true,
+    power:true,
+    
+};
+
+const house = {
+    width:16,
+    height:3,
+    depth:5,
+};
+
+const houseKeys = Object.keys(house);
+console.log(houseKeys);
+console.log(Object.keys({}));
 
 
 
