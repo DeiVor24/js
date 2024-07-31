@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
+    "function": "node --watch ./js/function/function.js" , 
     "ternary": "node --watch ./js/if/ternary.js" , 
     "homework": "node --watch ./homework.js" , 
     "if": "node --watch ./js/if/if.js",
