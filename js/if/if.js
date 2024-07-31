@@ -77,3 +77,29 @@ if (0 == '') {
 } else {
     console.log('NE');
 }
+
+console.clear();
+
+const colors = ['red', 'green', 'blue'];
+const color = 'dddfagshdg';
+
+// code nesting
+if (color === colors[0]) {
+    console.log('Raudona');
+} else {
+    if (color === colors[1]) {
+        console.log('Zalia');
+    } else {
+        if (color === colors[2]) {
+            console.log('Melyna');
+        } else {
+            console.log('Ups...');
+        }
+    }
+}
+
+if (undefined) {
+    console.log('POZITYVAS - truthy');
+} else {
+    console.log('NEGATYVAS - falsy');
+}
