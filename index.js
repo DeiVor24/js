@@ -15,21 +15,21 @@ console.log(4, 5, 6, 7, 8, 9);
 
 /*
 kintamieji (duomenu tipai):
-    - iniciavimo būdai
-    - number
+    + iniciavimo būdai
+    + number
     - string (tekstas)
-    - boolean (true/false)
-    - array (sąrašas)
-    - object (kompleksiškas duomuo/struktūra)
-    - null
-    - undefined
+    + boolean (true/false)
+    + array (sąrašas)
+    + object (kompleksiškas duomuo/struktūra)
+    + null
+    + undefined
 salygos/palyginimo (if):
-    - boolean logika
-    - if
+    + boolean logika
+    + if
     - switch
-    - ternary
+    + ternary
 ciklai (for):
-    - for
+    + for
     - for-of
     - for-in
     - while
@@ -41,8 +41,9 @@ ciklai (for):
         - reduce
         - foreach
         - N+1...
+import-export
 function:
-    - "iprastos" deklaruotinos
+    + "iprastos" deklaruotinos
     - anonimines (priskirtos kintamajam)
     - rodyklines (arrow)
 class (oop):
@@ -50,6 +51,11 @@ class (oop):
     - inheritence
     - private values
     - static method
+methods:
+    - number
+    - string
+    - array
+    - object
 event listeners:
     - keyboard click
     - mouse click (left/main)
