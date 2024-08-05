@@ -1,9 +1,9 @@
 console.clear();
 
-// Kintamųjų inicijavimas
+//                                Kintamųjų inicijavimas
 
 // 1. Sukurti 3 kintamuosius su skaičiaus tipo reikšmėmis
-// Po kiekvieno jų inicijavimo, išvesti į console
+//    Po kiekvieno jų inicijavimo, išvesti į console
 
 const a = 3;
 const b = 2;
@@ -12,7 +12,7 @@ console.log(a, b, c);
 
 
 // 2. Sukurti 3 kintamuosius su teksto tipo reikšmėmis
-// Po kiekvieno jų inicijavimo, išvesti į console
+//    Po kiekvieno jų inicijavimo, išvesti į console
 
 const diena = 'pirmadienis';
 const diena1 = 'antrdienis';
@@ -20,7 +20,7 @@ const diena2 = 'treciadienis';
 console.log(diena, diena1, diena2);
 
 // 3. Sukurti 3 sąrašo tipo kintamuosius su penkiomis skaičių tipo reikšmėmis
-// Po kiekvieno jų inicijavimo, išvesti į console
+//    Po kiekvieno jų inicijavimo, išvesti į console
 
 const speed = [100, 120, 240, 300, 20];
 const way = [1, 2, 3, 4, 5];
@@ -28,7 +28,7 @@ const time = [10, 15, 5, 3, 4];
 console.log(speed, way, time);
 
 // 4. Sukurti 3 sąrašo tipo kintamuosius su penkiomis teksto tipo reikšmėmis
-// Po kiekvieno jų inicijavimo, išvesti į console
+//    Po kiekvieno jų inicijavimo, išvesti į console
 
 
 const doctors = ['Jonas', 'Marius', 'Reda', 'Benas', 'Tadas'];
@@ -39,16 +39,16 @@ console.log(doctors);
 console.log(drivers);
 console.log(butchers);
 
-// Veiksmai su kintamaisiais
+                             // Veiksmai su kintamaisiais
 
 // 1. Susumuoti visus skaičiaus tipo kintamuosius
-// Rezultatą išvesti į console
+//    Rezultatą išvesti į console
 
 const suma = a + b +c;
 console.log(suma);
 
 // 2. Sujungti visus teksto tipo kintamuosius taip, jog tarp jų būtų sudarytas tarpas
-// Rezultatą išvesti į console
+//    Rezultatą išvesti į console
 
 const dienos = 'pirmadienis '+'antradienis '+'treciadienis';
 console.log(dienos);
@@ -57,15 +57,89 @@ console.clear();
 
 
 // 3. Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
-// 1-2+3-4+5
-// Rezultatą išvesti į console
+//    1-2+3-4+5
+//    Rezultatą išvesti į console
 
 const songs = [100, 120, 240, 300, 20];
 
-let verte = songs[0]
+const verte = songs[0] - songs[1] + songs[2] - songs[3] + songs[4];
 console.log(verte);
-let verte1 = songs[2]
-console.log(verte);
+
+// 4. Sujungti sąrašų vertes, kurių tipas yra tekstai, nuo sąrašo galo iki pradžios taip, 
+//    jog tarp jų būtų kablelis ir tarpas
+
+const ezeras= 'Didziulio ezeras yra Alytaus rajone.';
+const sala = 'Mums patinka ten leisti laika';
+const veiksmas = 'plaukiojant,';
+const veiksmas1 = 'zvejojant';
+
+const poilsis = ezeras + ' ' + sala + ' ' + veiksmas + ' ' + veiksmas1 + '.';
+console.log(poilsis);
+
+                        // Kintamųjų palyginimas 
+
+
+// Priklausomai nuo sąlygos, susikurkite 2 skirtingų reikšmių nurodyto tipo kintamuosius.
+// Lyginant, jei rezultatas tenkina palyginimo sąlygą (nurodytą žemiau), tai į console išvesti
+//  žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
+
+//  Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+
+const kaina = 10;
+const kaina2 = 7;
+
+// a. kuris didesnis
+
+if (kaina > kaina2) {
+    console.log('Pomidoras');
+    
+} else {
+    
+console.log('Bandykite kita karta.');
+
+};
+
+    
+
+//  kuris mažesnis
+
+    if (kaina < kaina2) {
+        console.log('Pomidoras');
+    } else {
+        console.log('Bandykite kita karta.');
+    };
+
+
+// ar jie lygūs
+
+if (kaina === kaina2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+// ar jie nelygūs
+
+if (kaina !== kaina2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+// kuris didesnis arba lygus
+
+if (kaina >= kaina2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+// kuris mažesnis arba lygus
+if (kaina <= kaina2) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+    
+
+
 
 
 
