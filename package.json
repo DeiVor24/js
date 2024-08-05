@@ -1,8 +1,12 @@
 {
   "name": "js",
   "version": "1.0.0",
+  "type": "module",
   "main": "index.js",
   "scripts": {
+    "string-reverse": "node --watch ./uzd/string-reverse.js",
+    "typeof": "node --watch ./js/if/typeof.js",
+    "uzd:suma": "node --watch ./uzd/suma-intervale.js" , 
     "import": "node --watch ./js/function/import.js" , 
     "for": "node --watch ./js/ciklas/for.js" , 
     "function": "node --watch ./js/function/function.js" , 
