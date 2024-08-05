@@ -83,7 +83,7 @@ console.log(poilsis);
 // Lyginant, jei rezultatas tenkina palyginimo sąlygą (nurodytą žemiau), tai į console išvesti
 //  žodį “Pomidoras”, o jei sąlyga nėra tenkinama, išvesti sakinį “Bandykite kitą kartą.”.
 
-//  Tarpusavyje palyginti skaičiaus tipo kintamuosius:
+//  1. Tarpusavyje palyginti skaičiaus tipo kintamuosius:
 
 const kaina = 10;
 const kaina2 = 7;
@@ -101,7 +101,7 @@ console.log('Bandykite kita karta.');
 
     
 
-//  kuris mažesnis
+// b. kuris mažesnis
 
     if (kaina < kaina2) {
         console.log('Pomidoras');
@@ -110,34 +110,111 @@ console.log('Bandykite kita karta.');
     };
 
 
-// ar jie lygūs
+// c. ar jie lygūs
 
 if (kaina === kaina2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kita karta.');
 };
-// ar jie nelygūs
+//  d. ar jie nelygūs
 
 if (kaina !== kaina2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kita karta.');
 };
-// kuris didesnis arba lygus
+//  e. kuris didesnis arba lygus
 
 if (kaina >= kaina2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kita karta.');
 };
-// kuris mažesnis arba lygus
+//  f. kuris mažesnis arba lygus
 if (kaina <= kaina2) {
     console.log('Pomidoras');
 } else {
     console.log('Bandykite kita karta.');
 };
     
+//   2. Išvesti teksto tipo kintamųjų ilgius
+
+
+
+const longest = 'nebeprisikiskiakopusteliaudavome';
+
+console.log(longest.length);
+
+// 3. Tarpusavyje palyginti teksto tipo kintamųjų ilgius:
+
+const darzove = 'agurkas';
+const uoga = 'arbuzas';
+
+const dIlgis = darzove.length;
+console.log(dIlgis);
+
+const uIlgis = uoga.length;
+console.log(uIlgis);
+
+
+
+// a. kuris didesnis
+
+if (dIlgis > uIlgis) {
+    console.log('Pomidoras');
+    
+} else {
+    
+console.log('Bandykite kita karta.');
+
+};
+
+    
+
+// b. kuris mažesnis
+
+    if (dIlgis < uIlgis) {
+        console.log('Pomidoras');
+    } else {
+        console.log('Bandykite kita karta.');
+    };
+
+
+// c. ar jie lygūs
+
+if (dIlgis === uIlgis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+//  d. ar jie nelygūs
+
+if (dIlgis !== uIlgis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+//  e. kuris didesnis arba lygus
+
+if (dIlgis >= uIlgis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+//  f. kuris mažesnis arba lygus
+if (dIlgis <= uIlgis) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+
+//   4. Išvesti sąrašo tipo kintamųjų ilgius
+
+const svoris = [10, 5, 7, 9, 8];
+console.log(svoris.length);
+
+
 
 
 
