@@ -1,3 +1,5 @@
+"use strict";
+
 /*
 OBJECT - objektas
 key-value porų sąrašas
@@ -114,168 +116,104 @@ C) SABLONAS:
 Prekiu krepselio verte yra TOTAL KAINA Eur.
 */
 
+console.clear();
+
+const pc = {
+    monitor: {
+        width: 1980,
+        height: 1080,
+    },
+    ram: 16,
+    hd: 100,
+    keyboard: 'en',
+    mouse: true,
+    power: false,
+};
+
+const param = 'monitor';
+console.log(pc[param]);
+
+console.log(pc.monitor.width);
+console.log(pc.monitor.height);
+console.log(pc['monitor'].width);
+console.log(pc['monitor'].height);
+console.log(pc['monitor']['width']);
+console.log(pc['monitor']['height']);
+console.log(pc.monitor['width']);
+console.log(pc.monitor['height']);
+
+console.log(pc[param]);
+console.log(pc[param].width);
+console.log(pc[param]['height']);
 
 console.clear();
 
-
-    const irankis1 = {
-        name: 'Suktukas',
-        price: 300,
-        qty: 1,
-    };
-    const irankis2 = {
-        name: 'Slifuoklis',
-        price: 50,
-        qty: 5,
-    };
-    const irankis3 = {
-        name: 'Oblius',
-        price: 150,
-        qty: 1,
-    };
-    const irankis4 = {
-        name: 'Lituoklis',
-        price: 40,
-        qty: 3,
-    };
-    const irankis5 = {
-        name: 'Kempas',
-        price: 1300,
-        qty: 1,
-    };
-    const irankis6 = {
-        name: 'Kaltas',
-        price: 10,
-        qty: 20,
-    };
-    const irankis7 = {
-        name: 'Siurblys',
-        price: 400,
-        qty: 2,
-    };
-    const irankis8 = {
-        name: 'Pjuklas',
-        price: 20,
-        qty: 3,
-    };
-
-
-console.log('A sablonas'); 
-// Prekiu krepselyje yra COUNT prekiu.
-
-const irankiaiA =irankis1 [0];
-const irankiukiekis ='Prekiu krepselyje yra '+  (irankis1.qty + irankis2.qty + irankis3.qty + irankis4.qty + irankis5.qty + irankis6.qty 
-+ irankis7.qty + irankis8.qty) + ' prekes';
-console.log(irankiukiekis);
-
-console.log('-----------');
-
-console.log('B sablonas');
-/* Prekiu krepselis
-----------------
-1) PAVADINIMAS (KAINA UZ VIENETA Eur) - KIEKIS
-2) PAVADINIMAS (KAINA UZ VIENETA Eur) - KIEKIS
-...
-N) PAVADINIMAS (KAINA UZ VIENETA Eur) - KIEKIS
-*/
-
-console.log(irankis1.name +' ' + irankis1.price+' eur' + ' ' + '-' +' '+ irankis1.qty+'vnt');
-console.log(irankis2.name +' ' + irankis2.price+' eur' + ' ' + '-' +' '+ irankis2.qty+'vnt');
-console.log(irankis3.name +' ' + irankis3.price+' eur' + ' ' + '-' +' '+ irankis3.qty+'vnt');
-console.log(irankis4.name +' ' + irankis4.price+' eur' + ' ' + '-' +' '+ irankis4.qty+'vnt');
-console.log(irankis5.name +' ' + irankis5.price+' eur' + ' ' + '-' +' '+ irankis5.qty+'vnt');
-console.log(irankis6.name +' ' + irankis6.price+' eur' + ' ' + '-' +' '+ irankis6.qty+'vnt');
-console.log(irankis7.name +' ' + irankis7.price+' eur' + ' ' + '-' +' '+ irankis7.qty+'vnt');
-console.log(irankis8.name +' ' + irankis8.price+' eur' + ' ' + '-' +' '+ irankis8.qty+'vnt');
-
-console.log('-----------');
-
-console.log('B sablonas');
-
-// Prekiu krepselio verte yra TOTAL KAINA Eur.
-
-const irankiai = irankis1[0];
-const kaina = (irankis1.qty * irankis1.price + irankis2.qty * irankis2.price + irankis3.qty * irankis3.price
-    + irankis4.qty * irankis4.price + irankis5.qty * irankis5.price +
-   irankis6.qty * irankis6.price + irankis7.qty * irankis7.price + irankis8.qty * irankis8.price);
-const totalkaina = 'Prekiu krepselio verte yra ' + kaina + ' eur'; 
-console.log(totalkaina);
-
-console.log('-----------');
-
-
-const pc = {
-    monitor: '1980x1080',
-    ram:16,
-    hd:100,
-    keyboard: 'en',
-    mouse:true,
-    power:true,
-};
-
-console.log(pc.ram);
-console.log(pc['mouse']);
-
-const param = 'power';
-
-console.log(pc[param]);
-
-const pc1 = {
-    monitor: {
-        width:1980,
-        height: 1080,
+const crazy = {
+    title: 'Some crazy ... 👀',
+    description: 'Prepare yourself... 🛸',
+    'crazy marks': [10, 2, 8, 4, 6],
+    123: {
+        one: true,
+        two: true,
+        three: true,
     },
-
-    ram:16,
-    hd:100,
-    keyboard: 'en',
-    mouse:true,
-    power:true,
-    
 };
+
+console.log(crazy);
+console.log(crazy.title);
+console.log(crazy['description']);
+console.log(crazy['crazy marks']);
+console.log(crazy['123']);
+console.log(crazy[123]);
+
+/*
+string = supaprastingas array
+array = supaprastingas object
+*/
+console.log(crazy.title);
+console.log(crazy.title[0]);
+console.log(crazy.title[1]);
+console.log(crazy.title[2]);
+console.log(crazy.title.length);
+
+console.clear();
 
 const house = {
-    width:16,
-    height:3,
-    depth:5,
+    width: 16,
+    height: 3,
+    depth: 5,
 };
 
 const houseKeys = Object.keys(house);
 console.log(houseKeys);
+
 console.log(Object.keys({}));
 
+console.clear();
 
 // dinaminis reiksmiu priskyrimas
 
 const zoo = {
     liutas: 2,
 };
-
-zoo.liutas += 3; 
 console.log(zoo.liutas);
 
-zoo.dramblys = 1; 
+zoo.liutas += 3;
+console.log(zoo.liutas);
+
+zoo.dramblys = 1;
 console.log(zoo);
 
-zoo.dramblys ++ ; 
-console.log(zoo);
-
-zoo.dramblys ++ ; 
+zoo.dramblys += 2;
 console.log(zoo);
 
 zoo.lape = 4;
 console.log(zoo);
 
-// masyvas
-
 const marks = [10, 2, 8, 4, 6];
 console.log(marks);
-
 console.log(marks[0]);
 
 marks[1] = 10;
 console.log(marks);
-
-
-
-
+console.log(marks[1]);

@@ -53,9 +53,26 @@ console.log(suma);
 const dienos = 'pirmadienis '+'antradienis '+'treciadienis';
 console.log(dienos);
 
+console.clear();
+
+
 // 3. Apskaičiuoti vertę iš sąrašų kurių verčių tipas yra skaičiai, pagal pateiktą logiką
 // 1-2+3-4+5
 // Rezultatą išvesti į console
+
+const songs = [100, 120, 240, 300, 20];
+
+let verte = songs[0]
+console.log(verte);
+let verte1 = songs[2]
+console.log(verte);
+
+
+
+
+
+
+
 
 
 

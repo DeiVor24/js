@@ -1,11 +1,3 @@
-import {sum} from '../../lib/sum.js';
-import {diff} from '../../lib/diff.js';
-import {sum} from '../../lib/sum.js';
-import {sum} from '../../lib/sum.js';
-
-const a = sum(7, 5);
-console.log(a);
-
 import { sum } from '../../lib/sum.js';
 import { diff } from '../../lib/diff.js';
 import { multi } from '../../lib/multi.js';
