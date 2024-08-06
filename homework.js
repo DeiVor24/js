@@ -214,6 +214,68 @@ if (dIlgis <= uIlgis) {
 const svoris = [10, 5, 7, 9, 8];
 console.log(svoris.length);
 
+//  5. Tarpusavyje palyginti sąrašo tipo kintamųjų ilgius:
+
+const trasa = [30, 50, 10, 12, 76];
+const vairai= ['Jonas', 'Petras', 'Ona'];
+
+// a. kuris didesnis
+
+if (trasa > vairai) {
+    console.log('Pomidoras');
+    
+} else {
+    
+console.log('Bandykite kita karta.');
+
+};
+
+    
+
+// b. kuris mažesnis
+
+    if (trasa < vairai) {
+        console.log('Pomidoras');
+    } else {
+        console.log('Bandykite kita karta.');
+    };
+
+
+// c. ar jie lygūs
+
+if (trasa === vairai) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+//  d. ar jie nelygūs
+
+if (trasa !== vairai) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+//  e. kuris didesnis arba lygus
+
+if (trasa >= vairai) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+//  f. kuris mažesnis arba lygus
+if (trasa <= vairai) {
+    console.log('Pomidoras');
+} else {
+    console.log('Bandykite kita karta.');
+};
+
+
+                              // Ciklo for panaudojimas
+
+// 1.  Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+               
+
+
 
 
 
