@@ -4,6 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "for-in": "node --watch ./js/ciklas/for-in.js" , 
+    "for-of": "node --watch ./js/ciklas/for-of.js" , 
     "string-reverse": "node --watch ./uzd/string-reverse.js",
     "typeof": "node --watch ./js/if/typeof.js",
     "uzd:suma": "node --watch ./uzd/suma-intervale.js" , 

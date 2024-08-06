@@ -273,6 +273,14 @@ if (trasa <= vairai) {
                               // Ciklo for panaudojimas
 
 // 1.  Suskaičiuoti ką gausime susumavus skaičius intervale tarp (imtinai):
+
+//     a. 0 … 0
+
+for (let index = 0; index < 0; index++) {
+    console.log();
+    
+    
+}
                
 
 
