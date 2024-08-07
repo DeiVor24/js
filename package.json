@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "arrow": "node --watch ./js/function/arrow.js" , 
     "for-in": "node --watch ./js/ciklas/for-in.js" , 
     "for-of": "node --watch ./js/ciklas/for-of.js" , 
     "string-reverse": "node --watch ./uzd/string-reverse.js",
