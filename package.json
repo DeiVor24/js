@@ -4,6 +4,7 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "stringMet": "node --watch ./js/method/string.js" , 
     "numbers": "node --watch ./js/method/numbers.js" , 
     "arrow": "node --watch ./js/function/arrow.js" , 
     "for-in": "node --watch ./js/ciklas/for-in.js" , 
