@@ -4,6 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "array-filter": "node --watch ./js/method/array-filter.js" , 
+    "array-map": "node --watch ./js/method/array-map.js" , 
     "arraymet": "node --watch ./js/method/array.js" , 
     "stringMet": "node --watch ./js/method/string.js" , 
     "numbers": "node --watch ./js/method/numbers.js" , 

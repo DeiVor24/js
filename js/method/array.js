@@ -1,7 +1,3 @@
-
-
-
-
 /*
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array
 */
@@ -9,10 +5,10 @@ https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects
 console.log(Array.isArray);
 console.log(Array.isArray([]));
 console.log(Array.isArray([1]));
-console.log(Array.isArray(['asd']));
+console.log(Array.isArray(["asd"]));
 console.log(Array.isArray());
 console.log(Array.isArray(2));
-console.log(Array.isArray('asd'));
+console.log(Array.isArray("asd"));
 console.log(Array.isArray(true));
 console.log(Array.isArray({}));
 console.log(Array.isArray(null));
@@ -22,7 +18,7 @@ const simtasZuikiu = new Array(100).fill(0);
 console.log(simtasZuikiu);
 
 for (let i = 0; i < simtasZuikiu.length; i++) {
-    simtasZuikiu[i] = i;
+  simtasZuikiu[i] = i;
 }
 console.log(simtasZuikiu);
 
@@ -65,15 +61,15 @@ console.log([10, 2, 8, 4, 6].indexOf(28));
 console.log();
 console.log(Array.prototype.join);
 
-const text = 'Labas rytas Lietuva';
-const words = text.split(' ');
+const text = "Labas rytas Lietuva";
+const words = text.split(" ");
 console.log(words);
 
 console.log(words.join());
-console.log(words.join(''));
-console.log(words.join(','));
-console.log(words.join(', ') + '.');
-console.log(words.join(' --==-- '));
+console.log(words.join(""));
+console.log(words.join(","));
+console.log(words.join(", ") + ".");
+console.log(words.join(" --==-- "));
 
 console.log();
 console.log(Array.prototype.reverse);
@@ -87,18 +83,18 @@ console.log(numbers3);
 numbers3.reverse();
 console.log(numbers3);
 
-const pom = 'Pomidoras';
-const pomLetters = pom.split('');
+const pom = "Pomidoras";
+const pomLetters = pom.split("");
 console.log(pomLetters);
 pomLetters.reverse();
 console.log(pomLetters);
-const pomReversed = pomLetters.join('');
+const pomReversed = pomLetters.join("");
 console.log(pomReversed);
 
-const agurkas = 'Agurkas'.split('').reverse().join('');
+const agurkas = "Agurkas".split("").reverse().join("");
 console.log(agurkas);
 
-const svogunas = 'Svogunas'.split('').reverse().join('');
+const svogunas = "Svogunas".split("").reverse().join("");
 console.log(svogunas);
 
 console.log();
@@ -152,18 +148,21 @@ const jonoPazymiai = [10, 2, 8, 4, 6];
 const geresniJonoPazymiai = [];
 
 for (const pazymys of jonoPazymiai) {
-    let geresnisPazymys = pazymys * 2;
+  let geresnisPazymys = pazymys * 2;
 
-    if (geresnisPazymys > 10) {
-        geresnisPazymys = 10;
-    }
+  if (geresnisPazymys > 10) {
+    geresnisPazymys = 10;
+  }
 
-    geresniJonoPazymiai.push(geresnisPazymys);
+  geresniJonoPazymiai.push(geresnisPazymys);
 }
 
 console.log(jonoPazymiai);
 console.log(geresniJonoPazymiai);
 
+console.log("-----------------------");
 
-console.log('--------------');
+
+
+
 
