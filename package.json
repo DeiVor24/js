@@ -4,6 +4,11 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
+    "sheet": "node --watch ./js/empty/sheet.js",
+    "array-sort": "node --watch ./js/method/array-sort.js" , 
+    "array-foreach": "node --watch ./js/method/array-foreach.js" , 
+    "array-every": "node --watch ./js/method/array-every.js" , 
+    "array-flat": "node --watch ./js/method/array-flat.js" , 
     "array-filter": "node --watch ./js/method/array-filter.js" , 
     "array-map": "node --watch ./js/method/array-map.js" , 
     "arraymet": "node --watch ./js/method/array.js" , 
