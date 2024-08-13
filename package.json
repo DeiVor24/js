@@ -4,7 +4,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "sheet": "node --watch ./js/empty/sheet.js",
+
+    "sheet": "node --watch ./try/sheet.js" , 
     "array-sort": "node --watch ./js/method/array-sort.js" , 
     "array-foreach": "node --watch ./js/method/array-foreach.js" , 
     "array-every": "node --watch ./js/method/array-every.js" , 
