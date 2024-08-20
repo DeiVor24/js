@@ -5,6 +5,8 @@
   "main": "index.js",
   "scripts": {
 
+    "array-reduce": "node --watch ./js/method/array-reduce.js" , 
+    "spread": "node --watch ./js/method/spread.js" , 
     "sheet": "node --watch ./try/sheet.js" , 
     "array-sort": "node --watch ./js/method/array-sort.js" , 
     "array-foreach": "node --watch ./js/method/array-foreach.js" , 
@@ -15,11 +17,13 @@
     "arraymet": "node --watch ./js/method/array.js" , 
     "stringMet": "node --watch ./js/method/string.js" , 
     "numbers": "node --watch ./js/method/numbers.js" , 
+    "while": "node --watch ./js/ciklas/while.js" , 
     "arrow": "node --watch ./js/function/arrow.js" , 
     "for-in": "node --watch ./js/ciklas/for-in.js" , 
     "for-of": "node --watch ./js/ciklas/for-of.js" , 
     "string-reverse": "node --watch ./uzd/string-reverse.js",
     "typeof": "node --watch ./js/if/typeof.js",
+    "uzd:students": "node --watch ./uzd/students-average.js" , 
     "uzd:suma": "node --watch ./uzd/suma-intervale.js" , 
     "import": "node --watch ./js/function/import.js" , 
     "for": "node --watch ./js/ciklas/for.js" , 

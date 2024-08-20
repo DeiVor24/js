@@ -24,11 +24,17 @@ function plusThree(n) {
 const a35 = a.map(plusThree);
 console.log(a35);
 
+
+console.log('------------------');
+
+
 const beforeMap = [];
 for (const number of a) {
     beforeMap.push(plusThree(number));
 }
 console.log(beforeMap);
+
+console.log('------------------');
 
 const names = [
     'Jonas Jonaitis',
@@ -43,8 +49,15 @@ const abbr = [];
 for (const name of names) {
     const words = name.split(' ');
 
+    console.log(words);
+    console.log('---------1---------');
+    
+
     for (let i = 0; i < words.length; i++) {
         words[i] = words[i][0] + '.';
+        console.log(words);
+        console.log('--------2----------');
+        
     }
 
     abbr.push(words.join(''));
@@ -52,11 +65,15 @@ for (const name of names) {
 
 console.log(abbr);
 
+console.log('--------2--- variantas--------');
+
 // 2 -----------------------
 const abbr2 = [];
 
 for (const name of names) {
-    abbr2.push(
+    abbr2.push
+    console.log(abbr);
+    (
         name
             .split(' ')
             .map(word => word[0] + '.')
@@ -64,6 +81,8 @@ for (const name of names) {
     );
 }
 console.log(abbr2);
+
+console.log('------------------');
 
 // 3 -----------------------
 const abbr3 = names.map(
