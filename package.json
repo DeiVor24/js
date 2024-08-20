@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
 
+    "math": "node --watch ./js/method/math.js" , 
     "array-reduce": "node --watch ./js/method/array-reduce.js" , 
     "spread": "node --watch ./js/method/spread.js" , 
     "sheet": "node --watch ./try/sheet.js" , 
