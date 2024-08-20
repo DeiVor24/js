@@ -50,3 +50,13 @@ console.log(Math.sqrt(2));
 // console.log(Math.min);
 
 // console.log(Math.random);
+
+
+// console.log(Math.ceil);      3,99  perraso 4 link didesnio skaiciaus
+
+// console.log(Math.floor);     3,99  apvalina i mazesne puse 3 link msxesnio skaiciaus
+
+// console.log(Math.round);      3,99  apvalina i mazesne jei o,5 ir maziau ,o didesne jei 0,6 ir daugiau puse 3
+// console.log(Math.trunc);
+
+console.log(Math.trunc(1.2));
