@@ -40,6 +40,7 @@
     "boolean": "node --watch ./js/kintamieji/boolean.js",
     "string": "node --watch ./js/kintamieji/string.js",
     "number": "node --watch ./js/kintamieji/number.js",
+    "praktika": "node --watch ./praktika.js",
     "dev": "node ./index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
